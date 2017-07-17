@@ -30,6 +30,3 @@ def mypython():
 def mylinux():
 	return render_template("webpage3.html")
 
-if __name__== '__main__':
-	app.run(host="0.0.0.0")
-
