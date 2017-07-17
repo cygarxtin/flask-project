@@ -1,0 +1,33 @@
+body{
+	background:gray;
+	margin:0;
+	padding:0;
+	border:0;
+  }
+img{
+	height:120px;
+	width:130px; 
+	position:relative; 
+	top:20px; 
+	left:20px; 
+	border-radius:20px; 
+}
+
+ div{ 
+	height:50px; 
+	width:750px;
+	position:relative;
+	top: 20px; 
+	left:120px; 
+	color:#fff;
+	float:right;
+}
+div ul li{
+	display:inline; 
+	list-style-type:none; 
+	padding-left:35px;
+	display:inline;
+	text-decoration:none;
+	
+	}
+
