@@ -1,33 +1,39 @@
 body{
-	background:gray;
+	background:#999;
 	margin:0;
 	padding:0;
 	border:0;
   }
+ p{
+	color:blue;
+	margin-left:20px;
+	padding-bottom:10px;
+ }
 img{
-	height:120px;
-	width:130px; 
+	height:200px;
+	width:210px; 
 	position:relative; 
 	top:20px; 
 	left:20px; 
 	border-radius:20px; 
+	border:1px solid #000;
 }
 
  div{ 
 	height:50px; 
 	width:750px;
 	position:relative;
-	top: 20px; 
-	left:120px; 
+	top: 50px; 
+	left:-320px; 
 	color:#fff;
 	float:right;
+	text-decoration:none;
 }
 div ul li{
-	display:inline; 
+	display:block; 
 	list-style-type:none; 
 	padding-left:35px;
-	display:inline;
 	text-decoration:none;
-	
-	}
-
+	padding-bottom:35px;
+	text-decoration:none;
+}
