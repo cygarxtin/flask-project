@@ -3,7 +3,7 @@ import os
 import paho.mqtt.client as mqtt
 
 client = mqtt.Client()
-client = connect("moorhouseassociates.com", 1883, 60)
+client.connect("moorhouseassociates.com", 1883, 60)
 
 app = Flask(__name__)
 
@@ -14,7 +14,7 @@ def index():
 @app.route('/btn')
 def btn():
 	print("button clicked")
-	client.publish("test/all", " Hey, how you doing")
+	client.publish("test/all", " Hey Gomah, watzup?")
 	return ""
 
 @app.route('/css/<path:path>')
